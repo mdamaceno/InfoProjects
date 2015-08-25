@@ -62,7 +62,7 @@ gem 'rails-admin-scaffold', '0.1.0'
 gem 'simple_form'
 gem 'enumerize'
 gem 'nested_form_fields'
-gem 'sorcery'
+gem 'devise'
 gem 'validates_email_format_of'
 gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'rmagick', require: false
