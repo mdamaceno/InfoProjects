@@ -55,7 +55,7 @@ group :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'simplecov', require: false
-  gem 'rspec_html_formatter', '~> 0.3.1'
+  # gem 'rspec_html_formatter', '~> 0.3.1'
 end
 
 gem 'rails-admin-scaffold', '0.1.0'
