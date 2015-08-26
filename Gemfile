@@ -9,8 +9,6 @@ gem 'pg'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
-# Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -54,8 +52,7 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'capybara'
-  gem 'simplecov', require: false
-  # gem 'rspec_html_formatter', '~> 0.3.1'
+  # gem 'simplecov', require: false
 end
 
 gem 'rails-admin-scaffold', '0.1.0'
@@ -64,7 +61,7 @@ gem 'enumerize'
 gem 'nested_form_fields'
 gem 'devise'
 gem 'validates_email_format_of'
-gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
+gem 'carrierwave'
 gem 'rmagick', require: false
 gem 'friendly_id', '~> 5.1.0'
 gem 'route_translator'
